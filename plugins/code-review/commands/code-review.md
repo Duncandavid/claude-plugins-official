@@ -25,7 +25,7 @@ To do this, follow these steps precisely:
    e. 100: Absolutely certain. The agent double checked the issue, and confirmed that it is definitely a real issue, that will happen frequently in practice. The evidence directly confirms this.
 6. Filter out any issues with a score less than 80. If there are no issues that meet this criteria, do not proceed.
 7. Use a Haiku agent to repeat the eligibility check from #1, to make sure that the pull request is still eligible for code review.
-8. Finally, use the gh bash command to comment back on the pull request with the result. When writing your comment, keep in mind to:
+8. Finally, DO NOT post any comment to the pull request. Instead, summarize all findings in Chinese and present them to the user in the conversation. Wait for the user's explicit confirmation before posting anything. Only after the user confirms, use the gh bash command to comment on the pull request. When writing your comment, keep in mind to:
    a. Keep your output brief
    b. Avoid emojis
    c. Link and cite relevant code, files, and URLs
